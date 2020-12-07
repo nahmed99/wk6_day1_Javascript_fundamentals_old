@@ -23,3 +23,29 @@ console.log('Mango:', mango)
 
 var apple;
 console.log('Apple:', apple)
+
+
+//Conditionals
+
+if (true) {
+    // this runs when true
+} else if (name === "Kidda") {
+    // this runs when name is equal to "Kidda"
+} else {
+    // this runs when false
+}
+
+
+// Logical
+
+// && - and
+// || - or
+
+(1 + 1 === 2) && ( 1 + 1 === 4)
+(1 + 1 === 2) || ( 1 + 1 === 4)
+
+// Short circuiting
+
+false && ( 1 + 1 === 4) //if the first part is false, then the second part will not be checked
+
+
