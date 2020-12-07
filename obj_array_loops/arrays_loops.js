@@ -15,7 +15,7 @@ sports.push("darts");
 sports.push("snooker");
 
 
-console.log('Sport:', sports);
+// console.log('Sport:', sports);
 
 
 /*
@@ -44,8 +44,22 @@ console.log('Sport:', sports);
 
 */
 
-for (var currentSport of sports) {
-    var uppercasedSport = currentSport.toLocaleUpperCase();
-    console.log(uppercasedSport);
-}
+//
+// JS for loop - when you need to loop through whole array...
+//
+// NOTE: using 'of' - Python used 'in'
+//
+// for (var currentSport of sports) {
+//     var uppercasedSport = currentSport.toLocaleUpperCase();
+//     console.log(uppercasedSport);
+// }
+
+// JS Long-form for loop:
+
+// for (var i = 0; i < sports.length; i++) {
+//     var currentSport = sports[i];
+//     var uppercasedSport = currentSport.toLocaleUpperCase();
+//     console.log(uppercasedSport)
+// }
+
 
