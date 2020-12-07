@@ -2,7 +2,7 @@
 // Declare a named function that takes an array of numbers, and returns the sum, or total, of all of the numbers in the array.
 
 function arraySum(theArray) {
-    sum = 0;
+    var sum = 0;
 
     for (var value of theArray) {
         sum += value;
